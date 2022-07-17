@@ -6,20 +6,11 @@ import github.mrh0.beekeeping.group.ItemGroup;
 import github.mrh0.beekeeping.network.TogglePacket;
 import github.mrh0.beekeeping.screen.analyzer.AnalyzerScreen;
 import github.mrh0.beekeeping.screen.apiary.ApiaryScreen;
+import me.pepperbell.simplenetworking.SimpleChannel;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.api.ModLoadingContext;
 import net.minecraftforge.fml.config.ModConfig;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.loading.FMLPaths;
-import net.minecraftforge.network.NetworkRegistry;
-import net.minecraftforge.network.simple.SimpleChannel;
 import org.slf4j.Logger;
 
 @Mod(Beekeeping.MODID)

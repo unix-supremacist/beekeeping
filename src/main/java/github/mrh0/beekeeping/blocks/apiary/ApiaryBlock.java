@@ -24,7 +24,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.network.client.NetworkHooks;
 import org.jetbrains.annotations.Nullable;
 
 public class ApiaryBlock extends BaseEntityBlock {

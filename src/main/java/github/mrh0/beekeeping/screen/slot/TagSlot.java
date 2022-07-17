@@ -1,6 +1,5 @@
 package github.mrh0.beekeeping.screen.slot;
 
-import github.mrh0.beekeeping.Index;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

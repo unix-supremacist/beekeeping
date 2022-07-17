@@ -1,6 +1,5 @@
 package github.mrh0.beekeeping.blocks.analyzer;
 
-import github.mrh0.beekeeping.Index;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
@@ -17,7 +16,7 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.network.client.NetworkHooks;
 import org.jetbrains.annotations.Nullable;
 
 public class AnalyzerBlock extends BaseEntityBlock {

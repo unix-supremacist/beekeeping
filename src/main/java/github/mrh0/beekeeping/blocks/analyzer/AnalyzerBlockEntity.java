@@ -1,6 +1,5 @@
 package github.mrh0.beekeeping.blocks.analyzer;
 
-import github.mrh0.beekeeping.Beekeeping;
 import github.mrh0.beekeeping.Index;
 import github.mrh0.beekeeping.bee.item.BeeItem;
 import github.mrh0.beekeeping.screen.analyzer.AnalyzerMenu;
@@ -8,7 +7,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;

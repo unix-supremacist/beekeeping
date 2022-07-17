@@ -3,25 +3,21 @@ package github.mrh0.beekeeping.datagen.loot;
 import github.mrh0.beekeeping.Index;
 import github.mrh0.beekeeping.bee.Specie;
 import github.mrh0.beekeeping.bee.SpeciesRegistry;
+import io.github.fabricators_of_create.porting_lib.util.RegistryObject;
 import net.minecraft.advancements.critereon.EnchantmentPredicate;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.advancements.critereon.MinMaxBounds;
 import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
-import net.minecraft.world.level.storage.loot.entries.LootPoolEntries;
-import net.minecraft.world.level.storage.loot.entries.LootPoolEntry;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.MatchTool;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
-import net.minecraft.world.level.storage.loot.providers.number.LootNumberProviderType;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import net.minecraftforge.registries.RegistryObject;
 
 public class BlockLootTables extends BlockLoot {
 
@@ -56,6 +52,6 @@ public class BlockLootTables extends BlockLoot {
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
-        return Index.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+        return Index.BLOCKS.getRegistries(RegistryObject::get)::iterator;
     }
 }

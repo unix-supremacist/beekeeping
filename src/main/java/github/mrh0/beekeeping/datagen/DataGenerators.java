@@ -4,9 +4,6 @@ import github.mrh0.beekeeping.Beekeeping;
 import github.mrh0.beekeeping.datagen.graphics.BeeIconGenerator;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
 import java.io.IOException;
 

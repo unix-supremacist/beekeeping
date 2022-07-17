@@ -9,16 +9,14 @@ import github.mrh0.beekeeping.bee.item.PrincessBee;
 import github.mrh0.beekeeping.bee.item.QueenBee;
 import github.mrh0.beekeeping.biome.BiomeTemperature;
 import github.mrh0.beekeeping.config.Config;
+import io.github.fabricators_of_create.porting_lib.biome.BiomeDictionary;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
-import net.minecraftforge.common.BiomeDictionary;
 
 import java.util.ArrayList;
 import java.util.List;
